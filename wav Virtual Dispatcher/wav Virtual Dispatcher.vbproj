@@ -103,6 +103,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="wav Dispatcher log in.resx">
       <DependentUpon>wav Dispatcher log in.vb</DependentUpon>
     </EmbeddedResource>
