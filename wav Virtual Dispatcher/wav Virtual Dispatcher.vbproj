@@ -79,6 +79,12 @@
     <Compile Include="Form2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Splash.designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="wav Dispatcher log in.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +111,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="wav Dispatcher log in.resx">
       <DependentUpon>wav Dispatcher log in.vb</DependentUpon>
